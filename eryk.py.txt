@@ -1,0 +1,9 @@
+def ball_in_box(argument):
+    def ball_out_box():
+        return 6
+    ball = ball_out_box()
+    special = argument / ball
+    return special
+
+final = ball_in_box()
+print(final)
