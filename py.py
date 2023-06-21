@@ -1,4 +1,4 @@
-def dif_name():
+def dif_name() -> str:
     return 'Eryk'
 
 x = dif_name()
@@ -12,9 +12,10 @@ total = a_forest(9)
 print(total)
 
 # unusual
-'''unvailable
-blaekomboebm
-bvehvei
+'''
+unvailable
+blackcode
+little heart
 '''
 
 def ball_in_box(argument):
