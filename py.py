@@ -1,29 +1,21 @@
-def dif_name() -> str:
-    return 'Eryk'
+       # User Input in Freecodecamp course
 
-x = dif_name()
-print(x)
+# 1.So there is a basic code:
+nam = input('Who are you? ')
+print('Welcome to my world,', nam)
 
-def a_forest(argument):
-    another_tree = argument * 10
-    return another_tree
+x = input('Enter your name : ')
+print('Hello ',x)
 
-total = a_forest(9)
-print(total)
+# 2.There is a more difficult than first one:
+hrs = input('Enter Hours: ')
+r = input('Enter Rate: ')
+z = float(hrs) * float(r)
+print("Pay: ",z)
 
-# unusual
-'''
-unvailable
-blackcode
-little heart
-'''
 
-def ball_in_box(argument):
-    def ball_out_box():
-        return 6
-    ball = ball_out_box()
-    special = argument / ball
-    return special
 
-final = ball_in_box(60)
-print(final)
+
+
+
+
