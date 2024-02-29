@@ -1,3 +1,4 @@
+# this code with ROOT.INPT.py AND ROOT.OUT.py
 from math import *
 
 fopen = open('ROOT.INPT.py')
@@ -19,5 +20,6 @@ iopen.write(s)
 
 fopen.close()
 iopen.close()
+
 
 
