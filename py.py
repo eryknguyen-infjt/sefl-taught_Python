@@ -43,5 +43,35 @@ hopen.write(str(cs) + ' ' + str(ds))
 ropen.close()
 hopen.close()
 
+# this is code with calculated summary
+from math import sqrt
+
+a = input('Nhập vào số nguyên A: ')
+b = input('Nhập vào số nguyên B: ')
+
+a = int(a)
+b = int(b)
+total = 0
+s = ''
+
+
+def nguyento(x):
+    if x == 1:
+        return False
+    for i in range(2, int(sqrt(x)) + 1):
+        if x % i == 0:
+            return False
+    return True
+
+
+for i in range(a, b + 1):
+    if nguyento(i):
+        total += 1
+    if i % 5 == 0:
+        s += str(i) + ', '
+
+print(total)
+print(s[:len(s) - 2])
+
 
 
