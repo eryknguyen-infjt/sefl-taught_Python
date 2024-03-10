@@ -2,7 +2,7 @@ import math
 from math import *
 
 
-def find_p(n, a):
+def find_p(a):
     # Compute the product of all elements in the sequence
     p = 1
     for x in a:
@@ -44,4 +44,23 @@ def find_smallest_prime_factor(n):
 n = int(input())
 a = list(map(int, input().split()))
 
-print(find_p(n, a))
+print(find_p(a))
+
+# def find_p(n, a):
+# p = 1
+# for x in a:
+# p *= x
+
+# i = 2
+# while i * i <= p:
+# if p % i:
+# i += 1
+# else:
+# p //= i
+
+# return p
+
+# n = int(input())
+# a = list(map(int, input().split()))
+
+# print(find_p(n, a))
