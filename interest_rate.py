@@ -1,3 +1,5 @@
+# first one that open 2 files to have the input and the output
+
 x = ""
 x.split()
 
