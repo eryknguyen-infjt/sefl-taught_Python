@@ -20,9 +20,6 @@ def find_prime_pairs(k):
     return prime_pairs
 
 
-a = b = 0
-
-
 def sumPrimes_ofK(test_cases):
     results = []
     for k in test_cases:
